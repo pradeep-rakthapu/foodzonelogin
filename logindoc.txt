@@ -1,0 +1,10 @@
+https://foodzonelogin.herokuapp.com/api/auth//userinfo
+
+
+https://foodzonelogin.herokuapp.com/api/auth/users
+
+
+https://foodzonelogin.herokuapp.com/api/auth//login
+
+
+https://foodzonelogin.herokuapp.com/api/auth/register
