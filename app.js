@@ -8,6 +8,11 @@ const cors = require('cors');
 app.use(cors());
 
 const AuthController = require('./controller/authController');
+app.get('/', (req,res) => {
+    if(err) throw err;
+    res.send("welcome to login logout")
+
+})
 app.use('/api/auth', AuthController);
 
 app.listen(port,() => {
