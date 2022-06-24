@@ -8,6 +8,12 @@ const User = require('../model/userSchema');
 
 router.use(bodyParser.urlencoded({extended:true}));
 router.use(bodyParser.json())
+// "/"
+router.get('/', (req,res) => {
+    if(err) throw err;
+    res.send("welcome to login logout")
+
+})
 
 //get all user
 router.get('/users', (req,res) => {
